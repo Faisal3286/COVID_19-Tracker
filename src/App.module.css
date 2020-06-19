@@ -21,3 +21,8 @@ body{
         width: 100%;
     }
 }
+footer{
+    background-color: seashell;
+    width: 100%;
+    text-align: center;
+}

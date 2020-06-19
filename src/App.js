@@ -27,8 +27,10 @@ state = {
               <Cards data = {data}/>
               <CountryPicker handelCountryChange = {this.handelCountryChange}/>
               <Chart data = { data } country = { country } />
-
-           </div>
+              <footer> 
+              	<div className="copyright">copyright &copy; Faisal Nabeel</div>
+             </footer>
+            </div>
         );
     }
 }
