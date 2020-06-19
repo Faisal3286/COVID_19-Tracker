@@ -28,7 +28,7 @@ state = {
               <CountryPicker handelCountryChange = {this.handelCountryChange}/>
               <Chart data = { data } country = { country } />
               <footer> 
-              	<div className="copyright">copyright &copy; Faisal Nabeel</div>
+              	<div className={styles.copyright}>Copyright &copy; Faisal Nabeel</div>
              </footer>
             </div>
         );
