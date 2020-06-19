@@ -1,5 +1,5 @@
 import React from 'react'
-import {Card,CardContent,Typography,Grid, Grow} from '@material-ui/core';
+import {Card,CardContent,Typography,Grid, } from '@material-ui/core';
 import styles from './Cards.module.css';
 import CountUp from 'react-countup';
 import cx from 'classnames';
@@ -22,7 +22,7 @@ import cx from 'classnames';
                 </CardContent>
             </Grid>
             <Grid item component={Card} xs={12} md={3} className = {cx(styles.card, styles.recovered)}>
-                <CardContent className='tc bg-light-green grow shadow-5 '>
+                <CardContent className='tc bg-light-green grow  shadow-5 '>
                     <Typography color='textSecondary' gutterBottom>Recovered</Typography>
                     <Typography variant='h5'>
                         <CountUp start ={0} end={recovered.value} duration={2.5} seperator=',' />
@@ -32,7 +32,7 @@ import cx from 'classnames';
                 </CardContent>
             </Grid>
             <Grid item component={Card} xs={12} md={3} className = {cx(styles.card, styles.deaths)}>
-                <CardContent className='tc bg-light-red grow shadow-5 '>
+                <CardContent className='tc bg-light-red grow  shadow-5 '>
                     <Typography color='textSecondary' gutterBottom>Deaths</Typography>
                     <Typography variant='h5'>
                         <CountUp start ={0} end={deaths.value} duration={2.5} seperator=',' />
